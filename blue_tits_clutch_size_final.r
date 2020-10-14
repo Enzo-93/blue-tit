@@ -11,7 +11,7 @@ add.alpha <- function(col, alpha=1){
   }
 
 ## Load data..
-xdata = read.table("blue_tit_data_updated_2020-04-18.csv", sep = ",", head = T, stringsAsFactors= F, na.strings= ".") # data table is available at 
+xdata = read.table("blue_tit_data_updated_2020-04-18.csv", sep = ",", head = T, stringsAsFactors= F, na.strings= ".") # data table is available at https://osf.io/qjzby/
 
 {## Prepare data for "Tarsus" and "Re-capture" models..
 
